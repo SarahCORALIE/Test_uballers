@@ -4,3 +4,24 @@
 -- début html 14h15 fin 14h55
 -- fin css 16h40
 3- créer une base de donnée sur php my admin utiliser le code suivant :
+
+------------------------------------------------
+        CREATE DATABASE test_uballers;
+
+        USE test_uballers;
+
+        CREATE TABLE user (
+        id int(5) NOT NULL AUTO_INCREMENT,
+        phone int(15) NULL,
+        email varchar(80) NULL,
+        firstname varchar(80) NOT NULL,
+        lastname varchar(80) NOT NULL,
+        password varchar(255) NOT NULL,
+        sexe enum('m','f') NOT NULL,
+        birthday datetime NOT NULL,
+        PRIMARY KEY (id_produit),
+        UNIQUE KEY reference (reference)
+        ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 ;
+
+-------------------------------------------------
+4- Se connecter sur votre navigateur sur votre localhost.
