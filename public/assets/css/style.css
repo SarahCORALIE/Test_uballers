@@ -93,6 +93,10 @@ input
     border: rgb(35, 38, 61) solid 1px;
     margin-top: 1.2em;
 }
+#login:hover
+{
+    cursor: pointer;
+}
 main
 {
     background: linear-gradient( white, rgb(241, 241, 250), rgb(214, 214, 243));
@@ -147,6 +151,10 @@ form >input
     padding: .5em 4em;
     box-shadow: inset .1em .1em .3em rgb(255, 255, 255),inset -.1em -.1em .3em  rgb(59, 59, 59);
     border: solid rgb(173, 173, 173) 1px;
+}
+#inscription:hover
+{
+    cursor: pointer;
 }
 main .row2
 {
