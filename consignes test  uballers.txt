@@ -1,0 +1,14 @@
+Nous vous demandons de faire ce test dès que vous pourrez, puis de nous l'envoyer. En voici l’énoncé :
+
+Le but de ce test est de faire connaître votre façon de coder en HTML et en CSS, mais aussi en PHP. Si vous connaissez le JavaScript, nous vous invitons à l'utiliser, mais uniquement pour ajouter de l'interactivité en Front-end (et surtout pas pour gérer le Back-end).
+
+Vous devez reproduire la page de connexion / inscription (cf. copie d'écran en pièce jointe "Test.png") ; le principe est de mettre en place un formulaire de connexion et un formulaire d’inscription. Pour ce qui est du CSS, il peut y avoir quelques propriétés difficiles à intégrer. Nous voulons notamment voir si vous arrivez à reproduire / intégrer une page web à partir d'une maquette (la pièce jointe).
+
+Vu que vous connaissez l'architecture MVC, nous vous demandons de l'utiliser pour structurer votre code. Cependant, vous ne devez pas utiliser un framework existant (ni Symfony, ni Laravel, ni aucun autre), mais tout simplement faire du PHP procédural (Vanilla) en MVC. Si vous n'êtes pas assez à l'aise avec le MVC, ne l'utilisez pas.
+
+Vous devez nous fournir un repository GitHub dans lequel vous aurez indiqué les étapes pour exécuter votre page en local.
+
+Si vous le pouvez, notez le temps approximativement passé sur chaque langage.
+
+
+Je reste à votre disposition, n'importe quand (même en soirée et le week-end), pour toute question sur l'offre de stage, sur le test ou sur tout autre point.

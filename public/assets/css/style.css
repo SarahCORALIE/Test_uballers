@@ -1,0 +1,158 @@
+/* font-family: 'Roboto', sans-serif; */
+
+*
+{
+    font-family: 'Roboto', sans-serif;  
+}
+h1
+{
+    font-size: 2.5em;
+    font-weight: 600;
+}
+h3
+{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+#container
+{
+    width: 70%;
+    margin: 0 auto;
+}
+body
+{
+    padding: 0;
+    margin: 0;
+}
+.alert
+{
+    padding: 3%;
+}
+.alert-danger
+{
+    background-color: rgba(255, 0, 0, 0.3);
+    border: red solid 1px;
+}
+.alert-success
+{
+    background-color: rgba(0, 255, 55, 0.3);
+    border: rgb(45, 175, 45) solid 1px;
+}
+header
+{
+    background-color: rgb(64, 89, 134);
+    padding: 1.5em;
+    color: white;
+}
+header a
+{
+    text-decoration: none;
+    color: white;
+}
+header a:hover
+{
+    text-decoration: none;
+}
+header .row
+{
+    display: flex;
+    justify-content: space-between;
+}
+header .col
+{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0.2em;
+}
+header input, header label
+{
+    display: block;
+    margin-bottom: 0.5em;
+    width: 100%;
+    border-radius: 0.1em;
+}
+input
+{
+    border-radius: 0.2em;
+    border: rgb(192, 191, 191) solid 1px;
+    background-color: white;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    margin-bottom: .8em;
+    font-size: 1.3rem !important;
+}
+#login
+{
+    background-color: rgb(73, 108, 175);
+    padding: .5em;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 900;
+    border: rgb(35, 38, 61) solid 1px;
+    margin-top: 1.2em;
+}
+main
+{
+    background: linear-gradient( white, rgb(241, 241, 250), rgb(214, 214, 243));
+    padding: 2em 2em 4em 2em;
+}
+main .row
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main .row input
+{
+    width: 48%;
+    color: grey;
+}
+main .row1
+{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+main .row1 input
+{
+    width: 48%;
+    color: grey;
+    margin-right: 1em;
+}
+main form > p
+{
+    width: 70%;
+    font-size: 1rem;
+    color: grey;
+    margin-bottom: 2em;
+}
+main a
+{
+    color:  rgb(73, 108, 175);
+    text-decoration: none;
+}
+form >input
+{
+    width: 100%;
+}
+#inscription
+{
+    background-color: rgb(98, 161, 46);
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 900;
+    width: fit-content;
+    padding: .5em 4em;
+    box-shadow: inset .1em .1em .3em rgb(255, 255, 255),inset -.1em -.1em .3em  rgb(59, 59, 59);
+    border: solid rgb(173, 173, 173) 1px;
+}
+main .row2
+{
+    display: flex;
+    justify-content: start;
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-bottom: 2em;
+}
